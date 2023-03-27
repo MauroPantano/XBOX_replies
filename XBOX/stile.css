@@ -1,0 +1,331 @@
+.container{
+  width: 100%;
+  height: 1200px;
+  position: relative;
+  top: 130px;
+  z-index: 0;
+
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  opacity: 0.6;
+  display: flex;
+  z-index: 1;
+}
+.classe1{
+  width: 80%;
+  margin: 0% auto;
+  padding: 2%;
+  background: #2f2f2f;
+}
+.link{
+  margin: 10px 0px 10px 50px;
+  float: left;
+  width: 10%;
+  color: white;
+  font-size: 15px;
+}
+
+.container__Game{
+  margin: 0;
+  right: 10px;
+  display: flex;
+  width: 1500px;
+  z-index: 0;
+}
+.container__Game--img{
+  cursor: pointer;
+  width: 300px;
+  height: 850px;
+  overflow: hidden;
+}
+.container__Game--paragrafo{
+  position: absolute;
+  bottom: 18%;
+  margin-left: 7%;
+  color: white;
+  z-index: 1;
+}
+.logo{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    transform: scale(1);
+}
+h1{
+  color: white;
+  font-size: 70px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  z-index: 1;
+}
+h2{
+  font-size: 50px;
+
+}
+
+.titolo___color{
+  color: white;
+}
+.container__video--titolo{
+  width: 500px;
+  position: relative;
+  left: 900px;
+  bottom: 630px;
+}
+.container__paragrafo {
+  margin: 0;
+  width: 60%;
+  color: white;
+  font-size: 20px;
+}
+.section1{
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+}
+.section2{
+  position: absolute;
+  left: 380px;
+  bottom: 140px;
+}
+.section3{
+  position: absolute;
+  left: 690px;
+  bottom: 180px;
+}
+.section4{
+  position: absolute;
+  left: 1030px;
+  bottom: 301px;
+}
+.section5{
+  position: absolute;
+  left: 1330px;
+  bottom: 347px;
+}
+.link__catalogo{
+  color: #9bf00b;
+  text-decoration: none;
+}
+
+.video{
+  position: absolute;
+  top: 1400px;
+}
+
+.Container__video{
+  width: 1500px;
+  margin-top: 18%;
+}
+
+.Video__paragrafo{
+  position: relative;
+  width: 40%;
+  left: 59%;
+  bottom: 660px;
+  font-size: 20px;
+}
+
+.container__psp{
+  width: 1500px;
+}
+
+.position__paragrafo--psp{
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+.position__titolo--psp{
+  width: 1300px;
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+
+.position__link--psp{
+  color: #107c10;
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+
+.container__carousel{
+  position: relative;
+}
+.carousel{
+  width: 50%;
+  height: 800px;
+  position: relative;
+  left: 25%;
+  background-color: #e6e6e6 !important;
+}
+.carousel__img{
+  width: 100%;
+  position: relative;
+
+}
+.carousel__p{
+  width: 90%;
+  position: relative;
+  font-size: 20px;
+}
+.carousel__link{
+  width: 10%;
+  color: #107c10;
+  position: relative;
+  left: 8%;
+  text-decoration: none;
+}
+.gamepass__link{
+  width: 10%;
+  color: #107c10;
+  position: relative;
+  text-decoration: none;
+}
+.container__gamepass{
+  width: 80%;
+  font-size: 20px;
+}
+.container__abbonamenti{
+  position: relative;
+  left: 5%;
+  display: flex;
+  float: left;
+  width: 1367px;
+  height: 1200px;
+}
+.container__abbonamenti--section1{
+  width: 362px;
+  height: 1091px;
+  background-color: #505050;
+  color: white;
+  padding: 3%;
+  font-size: 20px;
+}
+.container__abbonamenti--section2{
+  width: 362px;
+  height: 900px;
+  margin-left: 0.2%;
+  background-color: #107c10;
+  color: white;
+  font-size: 20px;
+  padding: 3%;
+}
+
+.container__abbonamenti--paragrafo{
+  float: left;
+  content: url("spunta.png");
+  width: 24px;
+}
+.container__abbonamenti--button{
+  background: #9bf00b;
+}
+.xboxAccess{
+  width: 100%;
+}
+.xboxAccess__icon{
+  display: flex;
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 19%;
+  padding-left: 12%;
+  padding-right: 5%;
+}
+.xboxAccess__section{
+  display: flex;
+  float: left;
+  position: relative;
+  top: 20px;
+  left: 19%;
+  padding-left: 10%;
+}
+.distanziamento{
+  float: left;
+  position: relative;
+
+}
+.xboxAccess__title{
+  width: 1000px;
+}
+.xboxAccess__paragrafo{
+  width: 1000px;
+  font-size: 20px;
+}
+.xboxAccess__link{
+  width: 10%;
+  color: #107c10;
+  position: relative;
+  text-decoration: none;
+}
+.footer__container{
+  width: 100%;
+  height: 300px;
+  background-color: #d2d2d2;
+}
+.footer__social{
+  width: 80%;
+  position: relative;
+  left: 5%;
+  padding-bottom: 2%;
+}
+.footer__social--icon{
+  padding-left: 1%;
+}
+.footer__containerlink{
+  width: 1367px;
+  height: 188px;
+  padding-left: 75px;
+  padding-right: 75px;
+  display: flex;
+  float: left;
+}
+.footer__link--header{
+  width: 16%;
+}
+.footer__containerlink--link{
+  width: 16%;
+  height: 188px;
+}
+.footer__link--link{
+  text-decoration: none;
+  color: black;
+}
+.link__catalogo:hover > .freccia, .carousel__link:hover > .freccia, .xboxAccess__link:hover > .freccia{
+  -webkit-animation: freccia 3s infinite;
+  -o-animation: freccia 3s infinite;
+  -moz-animation:freccia 3s infinite;
+  animation: freccia 3s infinite;
+}
+@-webkit-keyframes freccia{
+0%{
+-webkit-aniamtion-timing-function:linear;
+}
+50%{
+-webkit-aniamtion-timing-function:ease-out;
+}
+100%{
+transform: translateX(50px);
+}
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.logo:hover{
+  transform: scale(1.5);
+}
+input:hover {
+  text-decoration: underline;
+}
+body{
+  width: 100%;
+  margin: 0;
+}
